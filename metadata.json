@@ -1,0 +1,8 @@
+{
+  "name": "Remix Myanmar AI Subtitle Studio",
+  "description": "Convert video dialogue into natural conversational Burmese subtitles (SRT) with exact original timing, TikTok titles, and hashtags.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

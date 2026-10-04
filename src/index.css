@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Myanmar', 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(124, 92, 255, 0.18), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(34, 211, 238, 0.12), transparent 55%),
+      #0b0f19;
+    color: #e8ecf5;
+    min-height: 100vh;
+  }
+}
+
+.font-burmese {
+  font-family: 'Noto Sans Myanmar', 'Padauk', 'Pyidaungsu', 'Myanmar Text', sans-serif;
+  line-height: 1.8;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', 'Inter', monospace;
+}
+
+/* Custom scrollbars for dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3350;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4568;
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 0.8s linear infinite;
+}
